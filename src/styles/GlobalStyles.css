@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #691F74;
+
+  /* font-size */
+  --title-lg: 3.6rem;
+  --title-md: 2.8rem;
+  --title-sm: 2.0rem;
+  --text-lg: 1.8rem;
+  --text-md: 1.6rem;
+  --text-sm: 1.4rem;
+}
+
+html {
+  font-family:  'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  line-height: 1.4;
+  letter-spacing: -0.025em;
+}
+
+.title-lg {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
